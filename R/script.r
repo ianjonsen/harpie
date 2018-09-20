@@ -1,4 +1,5 @@
 require(tidyverse)
+source("R/mpmm.r")
 
 d <- read.csv("dat/hp2_ctrw.csv", stringsAsFactors = FALSE) %>%
   tbl_df() %>%
@@ -9,7 +10,6 @@ d <- read.csv("dat/hp2_ctrw.csv", stringsAsFactors = FALSE) %>%
   filter(av.dur > 0) %>%
   mutate(av.depth = ifelse(av.depth >=8 , av.depth, NA)) %>%
   mutate(date = lubridate::ymd_hms(date, tz = "UTC")) %>%
-  filter(id != "hp2-9349-04", id != "hp2-9320-04")
-
+  filter(id != "hp2-9320-04", id != "hp2-9349-04")
 
 fit <- mpmm(~ 1 + (1 | id), d, verbose = TRUE)
