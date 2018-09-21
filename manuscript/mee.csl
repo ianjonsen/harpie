@@ -1,0 +1,1659 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Blog/mee.csl at master · petrkeil/Blog</title>
+  <meta name="Description" content="This repository contains codes for all of my blog posts since March 11 2015. - petrkeil/Blog">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1561.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Menlo; color: #6f42c1; -webkit-text-stroke: #6f42c1}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Menlo; color: #1b1f23; color: rgba(27, 31, 35, 0.3); -webkit-text-stroke: rgba(27, 31, 35, 0.3)}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Menlo; color: #032f62; -webkit-text-stroke: #032f62}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Menlo; color: #24292e; -webkit-text-stroke: #24292e}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Menlo; color: #22863a; -webkit-text-stroke: #22863a}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Menlo; color: #1b1f23; color: rgba(27, 31, 35, 0.6); -webkit-text-stroke: rgba(27, 31, 35, 0.6)}
+    span.s1 {font-kerning: none; color: #24292e; -webkit-text-stroke: 0px #24292e}
+    span.s2 {font-kerning: none; color: #22863a; -webkit-text-stroke: 0px #22863a}
+    span.s3 {font-kerning: none}
+    span.s4 {font-kerning: none; color: #032f62; -webkit-text-stroke: 0px #032f62}
+    span.s5 {font-kerning: none; color: #6f42c1; -webkit-text-stroke: 0px #6f42c1}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 764.0px; padding: 0.0px 10.0px 0.0px 10.0px}
+    td.td2 {width: 50.0px; min-width: 50.0px; padding: 0.0px 10.0px 0.0px 10.0px}
+    td.td3 {width: 694.0px; padding: 0.0px 10.0px 0.0px 10.0px}
+  </style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td colspan="2" valign="top" class="td1">
+        <p class="p1"><span class="s1">&lt;?</span><span class="s2">xml</span><span class="s3"> version</span><span class="s1">=</span><span class="s4">"1.0"</span><span class="s3"> encoding</span><span class="s1">=</span><span class="s4">"utf-8"</span><span class="s1">?&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1">&lt;</span><span class="s2">style</span><span class="s1"> </span><span class="s5">xmlns</span><span class="s1">=</span><span class="s3">"http://purl.org/net/xbiblio/csl"</span><span class="s1"> </span><span class="s5">class</span><span class="s1">=</span><span class="s3">"in-text"</span><span class="s1"> </span><span class="s5">version</span><span class="s1">=</span><span class="s3">"1.0"</span><span class="s1"> </span><span class="s5">default-locale</span><span class="s1">=</span><span class="s3">"en-GB"</span><span class="s1"> </span><span class="s5">demote-non-dropping-particle</span><span class="s1">=</span><span class="s3">"sort-only"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">  </span>&lt;</span><span class="s2">info</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">title</span><span class="s3">&gt;Methods in Ecology and Evolution&lt;/</span><span class="s2">title</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">id</span><span class="s3">&gt;http://www.zotero.org/styles/methods-in-ecology-and-evolution&lt;/</span><span class="s2">id</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">link</span><span class="s1"> </span><span class="s5">href</span><span class="s1">=</span><span class="s3">"http://www.zotero.org/styles/methods-in-ecology-and-evolution"</span><span class="s1"> </span><span class="s5">rel</span><span class="s1">=</span><span class="s3">"self"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">link</span><span class="s1"> </span><span class="s5">href</span><span class="s1">=</span><span class="s3">"http://www.zotero.org/styles/journal-of-evolutionary-biology"</span><span class="s1"> </span><span class="s5">rel</span><span class="s1">=</span><span class="s3">"template"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">link</span><span class="s1"> </span><span class="s5">href</span><span class="s1">=</span><span class="s3">"http://www.zotero.org/styles/bioinformatics"</span><span class="s1"> </span><span class="s5">rel</span><span class="s1">=</span><span class="s3">"template"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">link</span><span class="s1"> </span><span class="s5">href</span><span class="s1">=</span><span class="s3">"http://www.methodsinecologyandevolution.org/view/0/authorGuidelines.html"</span><span class="s1"> </span><span class="s5">rel</span><span class="s1">=</span><span class="s3">"documentation"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">author</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">name</span><span class="s3">&gt;Xiaodong Dang&lt;/</span><span class="s2">name</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">email</span><span class="s3">&gt;dangxdong@gmail.com&lt;/</span><span class="s2">email</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">uri</span><span class="s3">&gt;http://www.researchgate.net/profile/Xiao-Dong_Dang&lt;/</span><span class="s2">uri</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">author</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">category</span><span class="s1"> </span><span class="s3">citation-format</span><span class="s1">=</span><span class="s4">"author-date"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">category</span><span class="s3"> </span><span class="s5">field</span><span class="s3">=</span><span class="s4">"biology"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">category</span><span class="s1"> </span><span class="s5">field</span><span class="s1">=</span><span class="s3">"generic-base"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">eissn</span><span class="s3">&gt;2041-210X&lt;/</span><span class="s2">eissn</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">summary</span><span class="s3">&gt;A style for Methods in Ecology and Evolution&lt;/</span><span class="s2">summary</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">updated</span><span class="s3">&gt;2012-09-27T22:06:38+00:00&lt;/</span><span class="s2">updated</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">rights</span><span class="s3"> </span><span class="s5">license</span><span class="s3">=</span><span class="s4">"http://creativecommons.org/licenses/by-sa/3.0/"</span><span class="s3">&gt;This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License&lt;/</span><span class="s2">rights</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s2">info</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">  </span>&lt;</span><span class="s2">macro</span><span class="s1"> </span><span class="s5">name</span><span class="s1">=</span><span class="s3">"editor-translator"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">names</span><span class="s1"> </span><span class="s3">variable</span><span class="s1">=</span><span class="s4">"editor translator"</span><span class="s1"> </span><span class="s3">prefix</span><span class="s1">=</span><span class="s4">"("</span><span class="s1"> </span><span class="s3">suffix</span><span class="s1">=</span><span class="s4">")"</span><span class="s1"> </span><span class="s3">delimiter</span><span class="s1">=</span><span class="s4">", "</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">name</span><span class="s1"> </span><span class="s3">and</span><span class="s1">=</span><span class="s4">"symbol"</span><span class="s1"> </span><span class="s3">initialize-with</span><span class="s1">=</span><span class="s4">"."</span><span class="s1"> </span><span class="s3">delimiter</span><span class="s1">=</span><span class="s4">", "</span><span class="s1"> </span><span class="s3">delimiter-precedes-last</span><span class="s1">=</span><span class="s4">"never"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">label</span><span class="s1"> </span><span class="s5">form</span><span class="s1">=</span><span class="s3">"short"</span><span class="s1"> </span><span class="s5">prefix</span><span class="s1">=</span><span class="s3">", "</span><span class="s1"> </span><span class="s5">text-case</span><span class="s1">=</span><span class="s3">"capitalize-first"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">names</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s2">macro</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">  </span>&lt;</span><span class="s2">macro</span><span class="s1"> </span><span class="s5">name</span><span class="s1">=</span><span class="s3">"author"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">names</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"author"</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">name</span><span class="s1"> </span><span class="s3">name-as-sort-order</span><span class="s1">=</span><span class="s4">"all"</span><span class="s1"> </span><span class="s3">and</span><span class="s1">=</span><span class="s4">"symbol"</span><span class="s1"> </span><span class="s3">sort-separator</span><span class="s1">=</span><span class="s4">", "</span><span class="s1"> </span><span class="s3">initialize-with</span><span class="s1">=</span><span class="s4">"."</span><span class="s1"> </span><span class="s3">delimiter</span><span class="s1">=</span><span class="s4">", "</span><span class="s1"> </span><span class="s3">delimiter-precedes-last</span><span class="s1">=</span><span class="s4">"never"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">label</span><span class="s1"> </span><span class="s5">form</span><span class="s1">=</span><span class="s3">"short"</span><span class="s1"> </span><span class="s5">prefix</span><span class="s1">=</span><span class="s3">" ("</span><span class="s1"> </span><span class="s5">suffix</span><span class="s1">=</span><span class="s3">")"</span><span class="s1"> </span><span class="s5">text-case</span><span class="s1">=</span><span class="s3">"capitalize-first"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">et-al</span><span class="s3"> </span><span class="s5">font-style</span><span class="s3">=</span><span class="s4">"italic"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s3">substitute</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">names</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"editor"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">names</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"translator"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"title"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s3">substitute</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">names</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s2">macro</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">  </span>&lt;</span><span class="s2">macro</span><span class="s1"> </span><span class="s5">name</span><span class="s1">=</span><span class="s3">"author-short"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">names</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"author"</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">name</span><span class="s1"> </span><span class="s3">form</span><span class="s1">=</span><span class="s4">"short"</span><span class="s1"> </span><span class="s3">and</span><span class="s1">=</span><span class="s4">"symbol"</span><span class="s1"> </span><span class="s3">delimiter</span><span class="s1">=</span><span class="s4">", "</span><span class="s1"> </span><span class="s3">initialize-with</span><span class="s1">=</span><span class="s4">". "</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">et-al</span><span class="s3"> </span><span class="s5">font-style</span><span class="s3">=</span><span class="s4">"italic"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s3">substitute</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">names</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"editor"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">names</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"translator"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">choose</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">if</span><span class="s1"> </span><span class="s5">type</span><span class="s1">=</span><span class="s3">"bill book graphic legal_case motion_picture report song"</span><span class="s1"> </span><span class="s5">match</span><span class="s1">=</span><span class="s3">"any"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s3">variable</span><span class="s1">=</span><span class="s4">"title"</span><span class="s1"> </span><span class="s3">form</span><span class="s1">=</span><span class="s4">"short"</span><span class="s1"> </span><span class="s3">font-style</span><span class="s1">=</span><span class="s4">"italic"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;/</span><span class="s2">if</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">else</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"title"</span><span class="s3"> </span><span class="s5">form</span><span class="s3">=</span><span class="s4">"short"</span><span class="s3"> </span><span class="s5">quotes</span><span class="s3">=</span><span class="s4">"true"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;/</span><span class="s2">else</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;/</span><span class="s2">choose</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s3">substitute</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">names</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s2">macro</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">  </span>&lt;</span><span class="s2">macro</span><span class="s1"> </span><span class="s5">name</span><span class="s1">=</span><span class="s3">"edition"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">choose</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">if</span><span class="s3"> </span><span class="s5">is-numeric</span><span class="s3">=</span><span class="s4">"edition"</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">group</span><span class="s3"> </span><span class="s5">delimiter</span><span class="s3">=</span><span class="s4">" "</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">number</span><span class="s1"> </span><span class="s5">variable</span><span class="s1">=</span><span class="s3">"edition"</span><span class="s1"> </span><span class="s5">form</span><span class="s1">=</span><span class="s3">"ordinal"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s3">term</span><span class="s1">=</span><span class="s4">"edition"</span><span class="s1"> </span><span class="s3">form</span><span class="s1">=</span><span class="s4">"short"</span><span class="s1"> </span><span class="s3">suffix</span><span class="s1">=</span><span class="s4">"n."</span><span class="s1"> </span><span class="s3">strip-periods</span><span class="s1">=</span><span class="s4">"true"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s2">if</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">else</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"edition"</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">"n."</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s2">else</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">choose</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s2">macro</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">  </span>&lt;</span><span class="s2">macro</span><span class="s1"> </span><span class="s5">name</span><span class="s1">=</span><span class="s3">"access"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s5">term</span><span class="s1">=</span><span class="s3">"retrieved"</span><span class="s1"> </span><span class="s5">text-case</span><span class="s1">=</span><span class="s3">"capitalize-first"</span><span class="s1"> </span><span class="s5">suffix</span><span class="s1">=</span><span class="s3">" "</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">date</span><span class="s1"> </span><span class="s3">variable</span><span class="s1">=</span><span class="s4">"accessed"</span><span class="s1"> </span><span class="s3">suffix</span><span class="s1">=</span><span class="s4">", "</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">date-part</span><span class="s3"> </span><span class="s5">name</span><span class="s3">=</span><span class="s4">"month"</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">date-part</span><span class="s3"> </span><span class="s5">name</span><span class="s3">=</span><span class="s4">"day"</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">", "</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">date-part</span><span class="s3"> </span><span class="s5">name</span><span class="s3">=</span><span class="s4">"year"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s2">date</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">term</span><span class="s3">=</span><span class="s4">"from"</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"URL"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s2">macro</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">  </span>&lt;</span><span class="s2">macro</span><span class="s1"> </span><span class="s5">name</span><span class="s1">=</span><span class="s3">"title"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">choose</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">if</span><span class="s1"> </span><span class="s5">type</span><span class="s1">=</span><span class="s3">"bill book thesis graphic legal_case motion_picture report song"</span><span class="s1"> </span><span class="s5">match</span><span class="s1">=</span><span class="s3">"any"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s3">variable</span><span class="s1">=</span><span class="s4">"title"</span><span class="s1"> </span><span class="s3">font-style</span><span class="s1">=</span><span class="s4">"italic"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"edition"</span><span class="s3"> </span><span class="s5">prefix</span><span class="s3">=</span><span class="s4">", "</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s2">if</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">else</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"title"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s2">else</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">choose</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s2">macro</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">  </span>&lt;</span><span class="s2">macro</span><span class="s1"> </span><span class="s5">name</span><span class="s1">=</span><span class="s3">"publisher"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">group</span><span class="s1"> </span><span class="s3">delimiter</span><span class="s1">=</span><span class="s4">", "</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"publisher"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s5">variable</span><span class="s1">=</span><span class="s3">"publisher-place"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s2">macro</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;</span><span class="s2">citation</span><span class="s1"> </span><span class="s3">collapse</span><span class="s1">=</span><span class="s4">"year-suffix"</span><span class="s1"> </span><span class="s3">et-al-min</span><span class="s1">=</span><span class="s4">"3"</span><span class="s1"> </span><span class="s3">et-al-use-first</span><span class="s1">=</span><span class="s4">"1"</span><span class="s1"> </span><span class="s3">disambiguate-add-year-suffix</span><span class="s1">=</span><span class="s4">"true"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">sort</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">key</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"issued"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">key</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"author"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">sort</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">layout</span><span class="s1"> </span><span class="s3">prefix</span><span class="s1">=</span><span class="s4">"("</span><span class="s1"> </span><span class="s3">suffix</span><span class="s1">=</span><span class="s4">")"</span><span class="s1"> </span><span class="s3">delimiter</span><span class="s1">=</span><span class="s4">"; "</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">group</span><span class="s3"> </span><span class="s5">delimiter</span><span class="s3">=</span><span class="s4">" "</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s5">macro</span><span class="s1">=</span><span class="s3">"author-short"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">date</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"issued"</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">date-part</span><span class="s3"> </span><span class="s5">name</span><span class="s3">=</span><span class="s4">"year"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;/</span><span class="s2">date</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">label</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"locator"</span><span class="s3"> </span><span class="s5">form</span><span class="s3">=</span><span class="s4">"short"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"locator"</span><span class="s3"> </span><span class="s5">prefix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">layout</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s3">citation</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;</span><span class="s2">bibliography</span><span class="s1"> </span><span class="s3">hanging-indent</span><span class="s1">=</span><span class="s4">"true"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">sort</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">key</span><span class="s1"> </span><span class="s5">macro</span><span class="s1">=</span><span class="s3">"author-short"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">key</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"title"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">sort</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">layout</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"author"</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">"."</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">date</span><span class="s1"> </span><span class="s3">variable</span><span class="s1">=</span><span class="s4">"issued"</span><span class="s1"> </span><span class="s3">prefix</span><span class="s1">=</span><span class="s4">" ("</span><span class="s1"> </span><span class="s3">suffix</span><span class="s1">=</span><span class="s4">")."</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">date-part</span><span class="s3"> </span><span class="s5">name</span><span class="s3">=</span><span class="s4">"year"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s2">date</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">choose</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">if</span><span class="s1"> </span><span class="s5">type</span><span class="s1">=</span><span class="s3">"bill book graphic legal_case motion_picture report song"</span><span class="s1"> </span><span class="s5">match</span><span class="s1">=</span><span class="s3">"any"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">group</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">"."</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"title"</span><span class="s3"> </span><span class="s5">prefix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s5">macro</span><span class="s1">=</span><span class="s3">"editor-translator"</span><span class="s1"> </span><span class="s5">prefix</span><span class="s1">=</span><span class="s3">" "</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">prefix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">"."</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"publisher"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;/</span><span class="s2">if</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">else-if</span><span class="s3"> </span><span class="s5">type</span><span class="s3">=</span><span class="s4">"thesis"</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">group</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">"."</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"title"</span><span class="s3"> </span><span class="s5">prefix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">"."</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"genre"</span><span class="s3"> </span><span class="s5">prefix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">" thesis,"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">prefix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"publisher"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;/</span><span class="s2">else-if</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">else-if</span><span class="s1"> </span><span class="s5">type</span><span class="s1">=</span><span class="s3">"chapter paper-conference"</span><span class="s1"> </span><span class="s5">match</span><span class="s1">=</span><span class="s3">"any"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">group</span><span class="s3"> </span><span class="s5">delimiter</span><span class="s3">=</span><span class="s4">". "</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">"."</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"title"</span><span class="s3"> </span><span class="s5">prefix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">group</span><span class="s3"> </span><span class="s5">delimiter</span><span class="s3">=</span><span class="s4">", "</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">              </span>&lt;</span><span class="s2">group</span><span class="s3"> </span><span class="s5">delimiter</span><span class="s3">=</span><span class="s4">" "</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s5">variable</span><span class="s1">=</span><span class="s3">"container-title"</span><span class="s1"> </span><span class="s5">font-style</span><span class="s1">=</span><span class="s3">"italic"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;</span><span class="s2">names</span><span class="s1"> </span><span class="s3">variable</span><span class="s1">=</span><span class="s4">"editor translator"</span><span class="s1"> </span><span class="s3">prefix</span><span class="s1">=</span><span class="s4">"("</span><span class="s1"> </span><span class="s3">suffix</span><span class="s1">=</span><span class="s4">")"</span><span class="s1"> </span><span class="s3">delimiter</span><span class="s1">=</span><span class="s4">", "</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">                  </span>&lt;</span><span class="s2">label</span><span class="s3"> </span><span class="s5">form</span><span class="s3">=</span><span class="s4">"short"</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3"> </span><span class="s5">strip-periods</span><span class="s3">=</span><span class="s4">"true"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;</span><span class="s2">name</span><span class="s1"> </span><span class="s3">and</span><span class="s1">=</span><span class="s4">"symbol"</span><span class="s1"> </span><span class="s3">sort-separator</span><span class="s1">=</span><span class="s4">" "</span><span class="s1"> </span><span class="s3">initialize-with</span><span class="s1">=</span><span class="s4">"."</span><span class="s1"> </span><span class="s3">delimiter-precedes-last</span><span class="s1">=</span><span class="s4">"never"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">                </span>&lt;/</span><span class="s2">names</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">              </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">              </span>&lt;</span><span class="s2">group</span><span class="s3"> </span><span class="s5">delimiter</span><span class="s3">=</span><span class="s4">" "</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">                </span>&lt;</span><span class="s2">label</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"page"</span><span class="s3"> </span><span class="s5">form</span><span class="s3">=</span><span class="s4">"short"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">                </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"page"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">              </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s5">variable</span><span class="s1">=</span><span class="s3">"collection-title"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p6"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"publisher"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;/</span><span class="s2">else-if</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">else</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">group</span><span class="s1"> </span><span class="s3">suffix</span><span class="s1">=</span><span class="s4">". "</span><span class="s1"> </span><span class="s3">prefix</span><span class="s1">=</span><span class="s4">" "</span><span class="s1"> </span><span class="s3">delimiter</span><span class="s1">=</span><span class="s4">" "</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"title"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s5">macro</span><span class="s1">=</span><span class="s3">"editor-translator"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;</span><span class="s2">group</span><span class="s3"> </span><span class="s5">delimiter</span><span class="s3">=</span><span class="s4">", "</span><span class="s3"> </span><span class="s5">suffix</span><span class="s3">=</span><span class="s4">"."</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s1"> </span><span class="s5">variable</span><span class="s1">=</span><span class="s3">"container-title"</span><span class="s1"> </span><span class="s5">font-style</span><span class="s1">=</span><span class="s3">"italic"</span><span class="s1">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"volume"</span><span class="s3"> </span><span class="s5">font-weight</span><span class="s3">=</span><span class="s4">"bold"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">variable</span><span class="s3">=</span><span class="s4">"page"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">          </span>&lt;/</span><span class="s2">group</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">        </span>&lt;/</span><span class="s2">else</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;/</span><span class="s2">choose</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s2">text</span><span class="s3"> </span><span class="s5">prefix</span><span class="s3">=</span><span class="s4">" "</span><span class="s3"> </span><span class="s5">macro</span><span class="s3">=</span><span class="s4">"access"</span><span class="s3">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s3"><span class="Apple-converted-space">    </span>&lt;/</span><span class="s2">layout</span><span class="s3">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s3">bibliography</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s3"><br>
+</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1">&lt;/</span><span class="s3">style</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
