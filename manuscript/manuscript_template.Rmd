@@ -1,10 +1,10 @@
 ---
 title:  'A template for writing a manuscript in Rmarkdown'
 author:
-- James Grecian One^[University of Somewhere]
-- Ian Jonsen Two^[University of Nowhere]
+  - W. J. Grecian^1^, I. D. Jonsen^2^
+  - ^1^Sea Mammal Research Unit, Scottish Oceans Institute, University of St Andrews, St Andrews, UK
+  - ^2^Dept. of Biological Sciences, Macquarie University, Sydney, Australia
 date: "`r format(Sys.time(), '%d %B %Y')`"
-tags: [nothing, nothingness]
 output:
   pdf_document:
     fig_caption: yes
