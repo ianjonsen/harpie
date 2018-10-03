@@ -24,8 +24,10 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={A template for writing a manuscript in Rmarkdown},
-            pdfauthor={W. J. Grecian1, I. D. Jonsen2; 1Sea Mammal Research Unit, Scottish Oceans Institute, University of St Andrews, St Andrews, UK; 2Dept. of Biological Sciences, Macquarie University, Sydney, Australia},
+            pdftitle={Incorporating dive behaviour into models of marine animal movement},
+            pdfkeywords={A list in alphabetical order not exceeding eight words or short phrases.
+The most important key-words should appear in the title and the abstract
+as well as the key-word list.},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
@@ -75,70 +77,56 @@
 
 \setlength{\droptitle}{-2em}
 
-  \title{A template for writing a manuscript in Rmarkdown}
+  \title{Incorporating dive behaviour into models of marine animal movement}
     \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
-    \author{W. J. Grecian\textsuperscript{1}, I. D. Jonsen\textsuperscript{2} \\ \textsuperscript{1}Sea Mammal Research Unit, Scottish Oceans Institute,
-University of St Andrews, St Andrews, UK \\ \textsuperscript{2}Dept. of Biological Sciences, Macquarie University,
-Sydney, Australia}
+    \author{W. J. Grecian\(^1\) \footnote{Corresponding author:
+  \href{mailto:james.grecian@gmail.com}{\nolinkurl{james.grecian@gmail.com}}}
+, I. D. Jonsen\(^2\)\\
+\(^1\)Sea Mammal Research Unit, Scottish Oceans Institute, University of
+St Andrews\\
+\(^2\)Dept. of Biological Sciences, Macquarie University, Sydney,
+Australia}
     \preauthor{\centering\large\emph}
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{21 September 2018}
+    \date{03 October 2018}
 
 \usepackage{lineno}
 \linenumbers
 
 \begin{document}
 \maketitle
+\begin{abstract}
+The Abstract must not exceed 350 words and should list the main results
+and conclusions, using simple, factual, numbered statements.\\
+1. Models of animal movement often only consider horizontal movement
+over 2 dimensions. Incorporating vertical movement in these models
+offers the potential to improve our understanding of the drivers of
+animal movement.\\
+2. Here we describe a state-space model that incorporates a random walk
+on both horizontal and vertical movements, and estimates the covariance
+between them. The model is flexible to allow both parameters to be
+conditioned on covariates, offering insights into the drivers of animal
+movement.\\
+3. outline the main results\\
+4. identify the conclusions and the wider implications.
+\end{abstract}
 
-\section{Abstract}\label{abstract}
-
-\emph{Lorem ipsum dolor sit amet, est ad doctus eligendi scriptorem. Mel
-erat falli ut. Feugiat legendos adipisci vix at, usu at laoreet
-argumentum suscipiantur. An eos adhuc aliquip scriptorem, te adhuc dolor
-liberavisse sea. Ponderum vivendum te nec, id agam brute disputando
-mei.}
-
-\section{Introduction}\label{introduction}
-
-Lorem ipsum dolor sit amet, est ad doctus eligendi scriptorem. Mel erat
-falli ut. Feugiat legendos adipisci vix at, usu at laoreet argumentum
-suscipiantur. An eos adhuc aliquip scriptorem, te adhuc dolor
-liberavisse sea. Ponderum vivendum te nec, id agam brute disputando mei.
-
-Putant numquam tacimates at eum. Aliquip torquatos ex vis, mei et quando
-debitis appareat, impetus accumsan corrumpit in usu. Nam mucius facilis
-singulis id, duo ei autem imperdiet instructior. Cu ceteros alienum mel,
-id vix putant impedit, ex idque eruditi forensibus eum. Posse dicunt id
-usu. Ei iracundia constituto sed, duo ne exerci ignota, an eum unum
-conceptam.
-
-Has audire salutandi no, ut eam dicat libris dicunt. Pri hendrerit
-quaerendum adversarium ea, dicat atqui munere et sea. Illum insolens eos
-ne, eu enim graece rationibus mea. At postea utamur mel, eius nonumes
-percipitur at vis. Numquam similique in per, te quo saepe utroque
-pericula.
-
-Ea nonumy volumus usu, no mel inermis dissentias. Dico partiendo
-vituperatoribus eum et. Mea accusam convenire te, usu populo qualisque
-gloriatur ut. Eu eum oratio altera option, ad mea ignota scriptorem. Ne
-suas latine vix, eos oblique sanctus pertinax cu.
-
-\section{Methods}\label{methods}
+\section{INTRODUCTION}\label{introduction}
 
 Lorem ipsum dolor sit amet, est ad doctus eligendi scriptorem. Mel erat
 falli ut. Feugiat legendos adipisci vix at, usu at laoreet argumentum
 suscipiantur. An eos adhuc aliquip scriptorem, te adhuc dolor
 liberavisse sea. Ponderum vivendum te nec, id agam brute disputando mei.
 
-Putant numquam tacimates at eum. Aliquip torquatos ex vis, mei et quando
-debitis appareat, impetus accumsan corrumpit in usu. Nam mucius facilis
-singulis id, duo ei autem imperdiet instructior. Cu ceteros alienum mel,
-id vix putant impedit, ex idque eruditi forensibus eum. Posse dicunt id
-usu. Ei iracundia constituto sed, duo ne exerci ignota, an eum unum
-conceptam.
+\section{MATERIALS AND METHODS}\label{materials-and-methods}
+
+Lorem ipsum dolor sit amet, est ad doctus eligendi scriptorem. Mel erat
+falli ut. Feugiat legendos adipisci vix at, usu at laoreet argumentum
+suscipiantur. An eos adhuc aliquip scriptorem, te adhuc dolor
+liberavisse sea. Ponderum vivendum te nec, id agam brute disputando mei.
 
 \subsection{Equations}\label{equations}
 
@@ -162,8 +150,8 @@ Pr(\textgreater{}\textbar{}t\textbar{})\tabularnewline
 Pr(\textgreater{}\textbar{}t\textbar{})\tabularnewline
 \midrule
 \endhead
-(Intercept) & 0.02 & 0.09 & 0.27 & 0.79\tabularnewline
-x & 1.94 & 0.09 & 22.13 & 0.00\tabularnewline
+(Intercept) & 0.01 & 0.10 & 0.07 & 0.94\tabularnewline
+x & 1.83 & 0.11 & 16.95 & 0.00\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -180,36 +168,31 @@ linear regression.}
 
 The relationship was first described by @Halpern\_2006. However, there
 are also opinions that the relationship is spurious {[}@Keil\_2012{]}.
-We used R for our calculations {[}@R\_Core\_Team\_2017{]}, and we used
+We used R for our calculations {[}@R\_Core\_Team\_2016{]}, and we used
 package \texttt{knitcitations} {[}@Boettiger\_2017{]} to make the
 bibliography.
 
-\section{Results and discussion}\label{results-and-discussion}
+\section{RESULTS}\label{results}
 
 Lorem ipsum dolor sit amet, est ad doctus eligendi scriptorem. Mel erat
 falli ut. Feugiat legendos adipisci vix at, usu at laoreet argumentum
 suscipiantur. An eos adhuc aliquip scriptorem, te adhuc dolor
 liberavisse sea. Ponderum vivendum te nec, id agam brute disputando mei.
 
-Putant numquam tacimates at eum. Aliquip torquatos ex vis, mei et quando
-debitis appareat, impetus accumsan corrumpit in usu. Nam mucius facilis
-singulis id, duo ei autem imperdiet instructior. Cu ceteros alienum mel,
-id vix putant impedit, ex idque eruditi forensibus eum. Posse dicunt id
-usu. Ei iracundia constituto sed, duo ne exerci ignota, an eum unum
-conceptam.
+\section{DISCUSSION}\label{discussion}
 
-Has audire salutandi no, ut eam dicat libris dicunt. Pri hendrerit
-quaerendum adversarium ea, dicat atqui munere et sea. Illum insolens eos
-ne, eu enim graece rationibus mea. At postea utamur mel, eius nonumes
-percipitur at vis. Numquam similique in per, te quo saepe utroque
-pericula.
+\section{CONCLUSION}\label{conclusion}
 
-Ea nonumy volumus usu, no mel inermis dissentias. Dico partiendo
-vituperatoribus eum et. Mea accusam convenire te, usu populo qualisque
-gloriatur ut. Eu eum oratio altera option, ad mea ignota scriptorem. Ne
-suas latine vix, eos oblique sanctus pertinax cu.
+\section{ACKNOWLEDGEMENTS}\label{acknowledgements}
 
-\section{References}\label{references}
+This project was made possible through a travel award from the Canada-UK
+Foundation.
+
+\section{AUTHORS' CONTRIBUTION}\label{authors-contribution}
+
+\section{DATA ACCESSIBILITY}\label{data-accessibility}
+
+\section{REFERENCES}\label{references}
 
 
 \end{document}
