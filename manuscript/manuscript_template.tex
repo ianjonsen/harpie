@@ -1,4 +1,4 @@
-\documentclass[]{article}
+\documentclass[12pt,]{article}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -25,9 +25,6 @@
 \usepackage{hyperref}
 \hypersetup{unicode=true,
             pdftitle={Incorporating dive behaviour into models of marine animal movement},
-            pdfkeywords={A list in alphabetical order not exceeding eight words or short phrases.
-The most important key-words should appear in the title and the abstract
-as well as the key-word list.},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
@@ -80,7 +77,7 @@ as well as the key-word list.},
   \title{Incorporating dive behaviour into models of marine animal movement}
     \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
-    \author{W. J. Grecian\(^1\) \footnote{Corresponding author:
+    \author{W. J. Grecian\(^1\)\footnote{Corresponding author:
   \href{mailto:james.grecian@gmail.com}{\nolinkurl{james.grecian@gmail.com}}}
 , I. D. Jonsen\(^2\)\\
 \(^1\)Sea Mammal Research Unit, Scottish Oceans Institute, University of
@@ -91,10 +88,12 @@ Australia}
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{03 October 2018}
+    \date{04 October 2018}
 
 \usepackage{lineno}
 \linenumbers
+\usepackage{setspace}
+\doublespacing
 
 \begin{document}
 \maketitle
@@ -111,8 +110,15 @@ between them. The model is flexible to allow both parameters to be
 conditioned on covariates, offering insights into the drivers of animal
 movement.\\
 3. outline the main results\\
-4. identify the conclusions and the wider implications.
+4. identify the conclusions and the wider implications.\\
+\textbf{keywords:} A list in alphabetical order; not exceeding eight
+words or short phrases; The most important key-words should appear in
+the title; and the abstract; as well as the key-word list.
 \end{abstract}
+
+\begin{verbatim}
+## Loading required package: citr
+\end{verbatim}
 
 \section{INTRODUCTION}\label{introduction}
 
@@ -150,8 +156,8 @@ Pr(\textgreater{}\textbar{}t\textbar{})\tabularnewline
 Pr(\textgreater{}\textbar{}t\textbar{})\tabularnewline
 \midrule
 \endhead
-(Intercept) & 0.01 & 0.10 & 0.07 & 0.94\tabularnewline
-x & 1.83 & 0.11 & 16.95 & 0.00\tabularnewline
+(Intercept) & -0.02 & 0.11 & -0.15 & 0.88\tabularnewline
+x & 2.00 & 0.12 & 16.76 & 0.00\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -166,11 +172,10 @@ linear regression.}
 
 \subsection{Citations}\label{citations}
 
-The relationship was first described by @Halpern\_2006. However, there
-are also opinions that the relationship is spurious {[}@Keil\_2012{]}.
-We used R for our calculations {[}@R\_Core\_Team\_2016{]}, and we used
-package \texttt{knitcitations} {[}@Boettiger\_2017{]} to make the
-bibliography.
+The relationship was first described by Halpern, Regan, Possingham, \&
+McCarthy (2006). However, there are also opinions that the relationship
+is spurious (Keil, Belmaker, Wilson, Unitt, \& Jetz, 2012). We used R
+for our calculations (R Core Team, 2016), and we used package.
 
 \section{RESULTS}\label{results}
 
@@ -192,7 +197,26 @@ Foundation.
 
 \section{DATA ACCESSIBILITY}\label{data-accessibility}
 
-\section{REFERENCES}\label{references}
+\section*{REFERENCES}\label{references}
+\addcontentsline{toc}{section}{REFERENCES}
+
+\hypertarget{refs}{}
+\hypertarget{ref-Halpern_2006}{}
+Halpern, B. S., Regan, H. M., Possingham, H. P., \& McCarthy, M. A.
+(2006). Accounting for uncertainty in marine reserve design.
+\emph{Ecology Letters}, \emph{9}(1), 2--11.
+doi:\href{https://doi.org/10.1111/j.1461-0248.2005.00827.x}{10.1111/j.1461-0248.2005.00827.x}
+
+\hypertarget{ref-Keil_2012}{}
+Keil, P., Belmaker, J., Wilson, A. M., Unitt, P., \& Jetz, W. (2012).
+Downscaling of species distribution models: A hierarchical approach.
+\emph{Methods in Ecology and Evolution}, \emph{4}(1), 82--94.
+doi:\href{https://doi.org/10.1111/j.2041-210x.2012.00264.x}{10.1111/j.2041-210x.2012.00264.x}
+
+\hypertarget{ref-R_Core_Team_2016}{}
+R Core Team. (2016). \emph{R: A language and environment for statistical
+computing}. Vienna, Austria: R Foundation for Statistical Computing.
+Retrieved from \url{https://www.R-project.org/}
 
 
 \end{document}

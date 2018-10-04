@@ -6,17 +6,16 @@ author: |
   | $^1$Sea Mammal Research Unit, Scottish Oceans Institute, University of St Andrews
   | $^2$Dept. of Biological Sciences, Macquarie University, Sydney, Australia
 
+date: "`r format(Sys.time(), '%d %B %Y')`"
+
 abstract: |
  The Abstract must not exceed 350 words and should list the main results and conclusions, using simple, factual, numbered statements.  
  1. Models of animal movement often only consider horizontal movement over 2 dimensions. Incorporating vertical movement in these models offers the potential to improve our understanding of the drivers of animal movement.  
  2. Here we describe a state-space model that incorporates a random walk on both horizontal and vertical movements, and estimates the covariance between them. The model is flexible to allow both parameters to be conditioned on covariates, offering insights into the drivers of animal movement.  
  3. outline the main results  
- 4. identify the conclusions and the wider implications.
+ 4. identify the conclusions and the wider implications.  
+ **keywords:** A list in alphabetical order; not exceeding eight words or short phrases; The most important key-words should appear in the title; and the abstract; as well as the key-word list.
 
-keywords: | 
- A list in alphabetical order not exceeding eight words or short phrases. The most important key-words should appear in the title and the abstract as well as the key-word list.
-
-date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   pdf_document:
     fig_caption: yes
