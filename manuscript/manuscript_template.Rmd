@@ -29,17 +29,17 @@ output:
     number_sections: yes
     theme: cerulean
 csl: mee.csl
-#bibliography: references.bib
+bibliography: references.bib
 header-includes:
    - \usepackage{lineno}
    - \linenumbers
+   - \usepackage{setspace}
+   - \doublespacing
+fontsize: 12pt
 ---
 
 ```{r, echo=FALSE}
-  # devtools::install_github("cboettig/knitcitations@v1")
-  library(knitcitations); cleanbib()
-  cite_options(citation_format = "pandoc", check.entries=TRUE)
-  library(bibtex)
+  require(citr)
 ```
 
 # INTRODUCTION
@@ -89,7 +89,7 @@ print(tab, type="latex")
 
 The relationship was first described by @Halpern_2006. However, there are also opinions
 that the relationship is spurious [@Keil_2012].
-We used R for our calculations [@R_Core_Team_2016], and we used package `knitcitations` [@Boettiger_2017] to make the bibliography.
+We used R for our calculations [@R_Core_Team_2016], and we used package.
 
 
 # RESULTS
@@ -109,7 +109,3 @@ This project was made possible through a travel award from the Canada-UK Foundat
 # DATA ACCESSIBILITY
 
 # REFERENCES
-
-```{r, warning=FALSE, message=FALSE, echo=FALSE} 
-  #write.bibtex(file="references.bib")
-```
