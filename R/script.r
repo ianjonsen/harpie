@@ -2,6 +2,7 @@
 require(tidyverse)
 require(sf)
 source("R/mpmm.r")
+source("R/mapr.r")
 
 # import data
 d <- read.csv("dat/hp2_ctrw.csv", stringsAsFactors = FALSE) %>%
@@ -14,6 +15,17 @@ d <- read.csv("dat/hp2_ctrw.csv", stringsAsFactors = FALSE) %>%
   mutate(av.depth = ifelse(av.depth >=8 , av.depth, NA)) %>%
   mutate(date = lubridate::ymd_hms(date, tz = "UTC")) %>%
   filter(id != "hp2-9320-04", id != "hp2-9349-04")
+
+# plot data to check and demonstrate new 'mapr' function
+d_sf <- st_as_sf(d, coords = c("lon", "lat")) %>%
+  st_set_crs("+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs")
+
+prj = "+proj=laea +lat_0=75 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+world_shp <- mapr(d, prj, buff = 500000)
+
+ggplot() +
+  geom_sf(aes(), data = world_shp) + 
+  geom_sf(aes(), data = d_sf)
 
 # run lambda mpmm model
 fit <- mpmm(~ 1 + (1 | id), d, verbose = TRUE)
